@@ -17,6 +17,12 @@ body {
   text-decoration: underline;
   text-underline-position: under;
 }
+
+.h5, h5 {
+  font-size: 0.8rem;
+  /* text-decoration: underline;
+  text-underline-position: under; */
+}
 /*--------------------text--------------------*/
 
 
@@ -74,6 +80,19 @@ body {
 }
 /*--------------------cards--------------------*/
 
+/*--------------------other--------------------*/
+.display-t {
+  margin-bottom: 20px;
+}
+
+.display-p {
+  margin-bottom: 20px;
+  max-width: 900px;
+}
+
+.display-f {
+  margin-top: 20px;
+}
 
 /*--------------------filter projects--------------------*/
 .filterDiv {
@@ -212,9 +231,9 @@ a:hover, a:active {
 /* Fading animation */
 .fade {
   -webkit-animation-name: fade;
-  -webkit-animation-duration: 3s;
+  -webkit-animation-duration: 1s;
   animation-name: fade;
-  animation-duration: 3s;
+  animation-duration: 1s;
   animation-fill-mode: forwards;
 }
 
