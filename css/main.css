@@ -7,7 +7,7 @@
 body {
   padding-top: 56px;
   font-family: 'Inconsolata', monospace;
-  text-align:center;
+  text-align: left;
   /* font-family: 'librebaskerville-bold',serif; */
 }
 
@@ -15,7 +15,7 @@ body {
 /*--------------------text--------------------*/
 .h4, h4 {
   font-size: 1rem;
-  text-decoration: underline;
+  /* text-decoration: underline; */
   text-underline-position: under;
 }
 
@@ -190,7 +190,7 @@ a:hover, a:active {
 
 /* On hover, add a black background color with a little bit see-through */
 .prev:hover, .next:hover {
-  background-color: rgba(0,0,0,0.8);
+  background-color: rgb(255,255,255);
 }
 
 /* Caption text */
